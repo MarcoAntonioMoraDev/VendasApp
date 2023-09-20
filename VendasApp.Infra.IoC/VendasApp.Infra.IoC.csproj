@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VendasApp.Application\VendasApp.Application.csproj" />
+    <ProjectReference Include="..\VendasApp.Domain\VendasApp.Domain.csproj" />
+    <ProjectReference Include="..\VendasApp.Infra.Data\VendasApp.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
